@@ -86,23 +86,27 @@ Backward-Right | 'J'
 
 If no instruction is send it will keep sending stop signal. Which is `S` in this case.
 
-## Supported Technologies
+# Supported Technologies
 - [x] Bluetooth Classic
 - [ ] Bluetooth Low energy
 - [ ] Wi-Fi
 
-## Supported Devices
+# Supported Devices
 - [x] HC-05
 
-## Known Issues
+# Known Issues
 - While pressing two opposite direction, it won't catch the second instruction which is intended. But it doesn't switch to second instruction after first one is releases.
 
-## Future Plan
+# Future Plan
 - [ ] Support for other technologies
 - [ ] More controls
 - [ ] Allow both landscape and potrait mode
 - [ ] Better UI
 
-## Credits
+# Credits
 - [Fida Zaman](https://github.com/FidaZaman): For UI instructions
 - [Tanmay Saha](https://github.com/tanmay-sh/): For app icon
+
+## Other Attributions
+- <a href="https://www.flaticon.com/free-icons/headlight" title="headlight icons">Headlight icons created by ultimatearm - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/arrows" title="arrows icons">Arrows icons created by Pixel perfect - Flaticon</a>
