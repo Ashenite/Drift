@@ -1,4 +1,4 @@
-<center><img src="assets/app_icon.png" width=200 height=200><br><img alt="GitHub Release" src="https://img.shields.io/github/v/release/aurkaxi/drift">
+<center><img src="assets/app_icon.png" width=200 height=200><br><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Ashenite/Drift">
 </center>
 
 # Drift
