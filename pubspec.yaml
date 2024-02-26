@@ -1,0 +1,40 @@
+name: drift
+description: "Basic Bluetooth RC Car controller."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  catppuccin_flutter: ^1.0.0
+  flutter_bluetooth_serial: ^0.4.0
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+  
+  fonts:
+    - family: FireCode Nerd Font
+      fonts:
+        - asset: fonts/FiraCodeNerdFontMono-Regular.ttf
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "#1e1e2e"
