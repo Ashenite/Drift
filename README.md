@@ -19,13 +19,17 @@ Yet another remote controller app for your rc car.
 Go to [Release](https://github.com/Ashenite/Drift/releases) tab. Download and install apk that suits your device. 
 <details>
 <summary> I know my CPU architecture (ARM, ARM64, x86) </summary>
-- `armeabi-v7a` for ARM (ARMv7 or armeabi)
-- `arm64-v8a` for ARM64 (AArch64 or arm64)
-- `x86_64` for X86 (x86 or x86abi)
+
+  - `armeabi-v7a` for ARM (ARMv7 or armeabi)
+  
+  - `arm64-v8a` for ARM64 (AArch64 or arm64)
+
+  - `x86_64` for X86 (x86 or x86abi)
 </details>
 <details>
 <summary> I don't know my CPU architecture </summary>
-- campatibility
+
+  - `fat`
 </details>
 
 The download size will differ but after installation all of them will result in same size. Also shouldn't cause any other differences.
@@ -53,6 +57,7 @@ Clicking `Submit` button will create 2 local files for these two informations.
 
 ### Devices List Screen
 It will show already paired devices. If you do not see your reciever, Go to bluetooth settings of your device and pair with that.
+
 <img src="https://github.com/Ashenite/Drift/assets/72933395/44211656-cffa-4294-a932-9e7848967073" height="500">
 
 Tap on the device you want to connect with.
