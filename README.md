@@ -1,5 +1,6 @@
-<center><img src="assets/app_icon.png" width=200 height=200><br><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Ashenite/Drift">
-</center>
+<p align="center">
+  <img src="assets/app_icon.png" width=200 height=200><br><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Ashenite/Drift">
+</p>
 
 # Drift
 Yet another remote controller app for your rc car. 
@@ -36,9 +37,12 @@ App will ask 2 Permissions:
 
 ### Splash Screen
 **Drift** will ask necessary permissions and request to enable bluetooth. And check if you are running this app for the first time or not.
+<img src="https://github.com/Ashenite/Drift/assets/72933395/39a35f5f-407b-4838-98a0-39772fcf7376" height="500">
 
 ### Setup Screen
 You will see this screen only and only if you are running this app for the first time.
+
+<img src="https://github.com/Ashenite/Drift/assets/72933395/625fecfc-b1a0-49cb-9cdb-3b0e2b2c7747" height="500">
 
 Click on the image to choose a logo for your team from gallery.
 Write your team name in the text box.
@@ -49,11 +53,14 @@ Clicking `Submit` button will create 2 local files for these two informations.
 
 ### Devices List Screen
 It will show already paired devices. If you do not see your reciever, Go to bluetooth settings of your device and pair with that.
+<img src="https://github.com/Ashenite/Drift/assets/72933395/44211656-cffa-4294-a932-9e7848967073" height="500">
 
 Tap on the device you want to connect with.
 
 ### Control Screen
 You should see your team logo and name on the top. Also the name of your connected device. The Red/Green circle next to it indicates connections status. Green means ready to go. Red-Green blinking means we are trying to connect.
+
+<img src="https://github.com/Ashenite/Drift/assets/72933395/7a613450-0de7-44ee-afb8-b45e0351523d" height="500">
 
 To disconnect, simply go back (back button or go back gesture of your phone). It will take you to [Device List Screen](#Devices-List-Screen).
 You will also be automatically taken there if somehow we lose connection with your reciever.
